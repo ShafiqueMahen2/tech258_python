@@ -45,10 +45,10 @@ while True:
         print("--------------------------")
         time.sleep(3)
 
-    if user_score >= 30:
+    if user_score >= 30 > cpu_score:
         print(f"Congrats on beating the CPU! Here's the final results: {name} {user_score} - {cpu_score} CPU")
         user_session_wins += 1
-    elif cpu_score >= 30:
+    elif cpu_score >= 30 > user_score:
         print(f"The CPU won, better luck next time! Here's the final results: {name} {user_score} - {cpu_score} CPU")
         cpu_session_wins += 1
     else:

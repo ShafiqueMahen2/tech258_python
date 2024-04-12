@@ -5,15 +5,15 @@ while x < 10:
     if x > 4:
         break
     print(f"Value of x this iteration is: {x}")
-    x+=1
+    x += 1
 
-# If we didn't increment x each iteration, the value of x would remain the same, creating a infinite loop.
+# If we didn't increment x each iteration, the value of x would remain the same, creating an infinite loop.
 
 # Task 4
 user_prompt = True
-
+age = 0
 while user_prompt:
-    age = input("What is your age?")
+    age = input("What is your age?: ")
     if age.isdigit() and int(age) <= 117:
         user_prompt = False
     else:
