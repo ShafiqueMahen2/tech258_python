@@ -1,7 +1,7 @@
 # Tech 258 - Python
 
 ## What is Python? What is the history of Python?
-Python is a high-level, dynamically typed programming language known for it's simplicity and readability. 
+Python is a high-level, dynamically typed programming language known for its simplicity and readability. 
 
 It was initially designed by Guido van Rossum in 1991 and developed by Python Software Foundation. It was mainly developed for emphasis on code readability, and it's syntax allows programmers to express concepts in fewer lines of code.
 
