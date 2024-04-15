@@ -4,6 +4,7 @@
 Just like programming, scripting is a way of providing instructions to a computer, so you can tell it what to do and when to do it, commonly through a scripting language e.g Python and Bash. However, it is different from programming in many ways:
 - **Characteristic of Language used**: Scripting often prioritises ease of use, readability and flexibility. Simpler syntaxn and semantics when compared to the majority of programming languages.
 - **Scope**: Scripting typically involves writing small programs to automate specific tasks.
+
 ![Alt text](images/Programming-vs-Scripting-Language-01.png "Difference in Scope between PL and SL")
 ## What are the packages in the standard Python library? Show some code examples of them being used in code blocks within your markdown
 Python comes with a high level of out-of-the-box support in terms of libraries, which provide a wide range of modules and packages for various tasks. Some examples:
