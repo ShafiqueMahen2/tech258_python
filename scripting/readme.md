@@ -36,16 +36,16 @@ print(f"Current working directory is: {working_dir}") # Should print the present
 
 ## List at least 10 Python scripts a DevOps engineer may use/create. Here's an example, a script to query a database.
 Some example scripts a DevOps engineer may create could be:
-- A script that can read/write files.
-- A script that allows interaction with APIs
-- A script that can reformat an image.
-- A script that can organise data.
-- A script that can use web scraping.
-- A script that can automate a CI/CD pipeline.
-- A script that can provision and configure infrastructure.
-- A script that can back up/restore files.
-- A script that can monitor an application.
-- A script that can automate security scanning.
+1) A script that can read/write files.
+2) A script that allows interaction with APIs
+3) A script that can reformat an image.
+4) A script that can organise data.
+5) A script that can use web scraping.
+6) A script that can automate a CI/CD pipeline. 
+7) A script that can provision and configure infrastructure. 
+8) A script that can back up/restore files. 
+9) A script that can monitor an application. 
+10) A script that can automate security scanning.
 
 ## Example Script:
 ```bash
