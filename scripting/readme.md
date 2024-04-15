@@ -46,3 +46,12 @@ Some example scripts a DevOps engineer may create could be:
 - A script that can back up/restore files.
 - A script that can monitor an application.
 - A script that can automate security scanning.
+
+## Example Script:
+```bash
+#!/bin/bash
+echo "Hello, world!" # Should print a greeting message
+echo "The current date and time is: $(date)" # Should display the current date and time
+echo "Files in the current directory:" # Should list files in the current directory
+ls
+```
