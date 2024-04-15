@@ -51,7 +51,7 @@ Some example scripts a DevOps engineer may create could be:
 ```bash
 #!/bin/bash
 echo "Hello, world!" # Should print a greeting message
-echo "The current date and time is: $(date)" # Should display the current date and time
-echo "Files in the current directory:" # Should list files in the current directory
-ls
+echo "The current date and time is: $(date)" # Should print the current date and time
+echo "Files in the current directory:" 
+ls # Should list files in the current directory
 ```
