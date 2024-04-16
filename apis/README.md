@@ -3,7 +3,7 @@
 ## What are APIs? How are they used and why are they so popular?
 An API (Application Programming Interface) is a way for two or more computer programs or components to communicate with one another. APIs are used to share data between these systems using a request and response cycle. APIs are popular as they allow this communication to occur in real-time and over the internet.
 
-![API_data_transfer.png](API_data_transfer.png)
+![API_data_transfer.png](images/API_data_transfer.png)
 
 ## What is a REST API? what makes an API RESTful? What are the REST API guidelines?
 A REST API is an architectural style for an API that conforms to the constraints of REST (Representational State Transfer). An API is RESTful when it uses HTTP requests to access and use data. This data is then used to GET, PUT, POST and DELETE data types, referring to the reading, updating, creating and deleting of operations concerning resources. The REST API also adheres to the guidelines below:
@@ -33,7 +33,7 @@ https://www.example.com/example/resource
 - **Header**: Contains additional information about the request, stored in a Key-Value pair format, where the key is the header name and the value is its corresponding value.
 - **Body**: Contains any additional data that the client wants to send to the server.
 
-![HTTP_request_structure.png](HTTP_request_structure.png)
+![HTTP_request_structure.png](images/HTTP_request_structure.png)
 
 ## Explain HTTP response structure using the diagrams provided, or your own (see attachments)
 The common HTTP response structure may contain the following components:
@@ -48,7 +48,7 @@ The common HTTP response structure may contain the following components:
 - **Header**: Contains additional information about the response, stored in a Key-Value pair format, where the key is the header name and the value is its corresponding value.
 - **Body**: Contains the actual content returned by the server e.g. HTML content or JSON data.
 
-![HTTP_response_structure.png](HTTP_response_structure.png)
+![HTTP_response_structure.png](images/HTTP_response_structure.png)
 
 ## What are the 5 HTTP verbs? And what does each do?
 These are the 5 HTTP verbs, these verbs correspond to CRUD (Create, Read, Update, Delete) operations:
@@ -66,7 +66,7 @@ A Stateless Protocol adheres to this, by not requiring the server to retain sess
 
 A Stateful Protocol does not adhere to this principle as it may require additional information from the server. If this is not given, the request may need to be resent. Examples: User Authentication (Server may have to provide additional information e.g. status, session token, etc.), Shopping Cart Interaction (Server may have to maintain state of shopping cart).
 
-![rest_api_stateful_vs_stateless.png](rest_api_stateful_vs_stateless.png)
+![rest_api_stateful_vs_stateless.png](images/rest_api_stateful_vs_stateless.png)
 
 ## What is caching?
 Caching is the process of storing copies of files in a cache (temporary storage location), so they can be accessed quickly. In the context of web applcations, caching may be useful to serve future requests more quickly as it happens at various different levels e.g. Client-side caching and Server-side caching.
